@@ -1,0 +1,34 @@
+[
+    {
+        "name": "SPA Personal Dashboard",
+        "type": "Project",
+        "description": "Controls music and lights, displays last 10 emails, calendar entries; todos and shopping list",
+        "stack": ["React", "Sass", "Node.js", "Express", "MongoDB"],
+        "image": "/images/projects/spa-control/showcase.png",
+        "github": "https://github.com/nikolajjepsen/controlpanel"
+    },
+    {
+        "name": "Find Betting Value",
+        "type": "Client",
+        "description": "Using a third-party API, find and display value bets from selected bookmakers.",
+        "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
+        "image": "/images/projects/oddsprofit-valuebets/1.png",
+        "github": "https://github.com/nikolajjepsen/controlpanel"
+    },
+    {
+        "name": "SMS Custom Platform",
+        "type": "Project",
+        "description": "Integrating third-party SMS providers into a fullstack platform ",
+        "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
+        "image": "/images/projects/sms-platform/showcase.png",
+        "github": "https://github.com/nikolajjepsen/controlpanel"
+    },
+    {
+        "name": "SPA E-sports Calendar",
+        "type": "Project",
+        "description": "",
+        "stack": ["Laravel", "Eloquent", "React", "Sass"],
+        "image": "/images/projects/esports-calendar/showcase.png",
+        "github": "https://github.com/nikolajjepsen/controlpanel"
+    }
+]

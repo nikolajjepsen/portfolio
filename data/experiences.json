@@ -1,0 +1,88 @@
+[
+    {
+        "company": "Progress Media ApS",
+        "position": "Owner",
+        "location": "Køge",
+        "brief": "Digital marketing using channels such as e-mail, SMS, and social media.",
+        "start": "January 2015",
+        "end": "current",
+        "projects": [
+            "A number of different landingpages, primarily frontend work.",
+            "Automating e-mail and SMS flows and analytical optimisation of sent campaigns based on KPI.",
+            "Development of different dashboard to manage large amounts of data, revenue, costs, and more.."
+        ]
+    },
+    {
+        "company": "UNI Finance ApS",
+        "position": "Co-founder & tech lead",
+        "location": "Copenhagen",
+        "brief": "Loan comparison site focusing on the Norwegian market.",
+        "start": "April 2018",
+        "end": "August 2018",
+        "projects": [
+            "Fullstack development of the first version of the platform (PHP, MySQL - HTML, CSS, and jQuery).",
+            "Implementation of first- and third-party tracking and full automation of e-mail and SMS flows.",
+            "Development of backend for handling revenue- and traffic sources, affiliate marketing publishers and their individual rates."
+        ]
+    },
+    {
+        "company": "Adendo ApS",
+        "position": "Partner",
+        "location": "Copenhagen",
+        "brief": "Digital marketing exclusively through e-mail and SMS channels.",
+        "start": "June 2017",
+        "end": "January 2019",
+        "projects": [
+            "Development of internal systems to measure and compare the effectiveness of our marketing.",
+            "Development of systems handling our large amount of customer data - imports and exports, analytics and statistics."
+        ]
+    },
+    {
+        "company": "OSP Group IVS",
+        "position": "Investor & advisor",
+        "location": "Copenhagen",
+        "brief": "Betting related subscription service, oddsprofit.dk.",
+        "start": "May 2016",
+        "end": "August 2018",
+        "projects": [
+            "Development of backend handling the recommended bets, generation of statistics through timeperiods and more",
+            "Expose the backend to the Wordpress installation through a custom-made plugin."
+        ]
+    },
+    {
+        "company": "BestAd Group",
+        "position": "Lead manager",
+        "location": "København",
+        "brief": "Digital marketing through e-mail and display.",
+        "start": "December 2011",
+        "end": "July 2015",
+        "projects": [
+            "Development of a larger full-stack platform in PHP & MySQL and HTML/CSS/jQuery to gather statistics over a number of different affiliate networks using their APIs or by crawling their sites.",
+            "A number of different adjustment of a Wordpress news site, Footy.dk, both plugins and theme, owned by the same people."
+        ]
+    },
+    {
+        "company": "New Age Media ApS",
+        "position": "Fullstack developer",
+        "location": "Køge",
+        "brief": "Subscription service and two different webshops - sale of e-cigarettes.",
+        "start": "May 2014",
+        "end": "January 2015",
+        "projects": [
+            "Maintenance and new features for an existing subscription service written in PHP / MySQL and HTML / CSS and jQuery.",
+            "Development of two webshops, first WooCommerce and later Magento, both from ground up."
+        ]
+    },
+    {
+        "company": "The University of Copenhagen - Food Science",
+        "position": "External Office Worker",
+        "location": "Køge",
+        "brief": "Handling the migration of CMS systems.",
+        "start": "Janaury 2014",
+        "end": "October 2014",
+        "projects": [
+            "Migrating data and theme from existing Drupal installation to a Wordpress installation.",
+            "Development of dashboard to track and handle download of papers."
+        ]
+    }
+]

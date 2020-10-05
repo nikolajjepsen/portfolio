@@ -1,65 +1,73 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { motion } from 'framer-motion';
+import styles from '../styles/Home.module.scss';
+
+import Grid from './../components/Layout/Grid';
+import Header from './../components/Layout/Header';
+import PageContent from './../components/Layout/PageContent';
+
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    const imageVariants = {
+        imageInitial: {
+            y: '-80px',
+        },
+        imageAnimate: {
+            y: 0,
+        },
+    };
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+    const imageMotionProps = {
+        initial: 'imageInitial',
+        animate: 'imageAnimate',
+        variants: imageVariants,
+    };
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+    const introVariants = {
+        introInitial: {
+            scale: 0.9,
+        },
+        introAnimate: {
+            scale: 1,
+        },
+    };
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+    const introMotionProps = {
+        initial: 'introInitial',
+        animate: 'introAnimate',
+        variants: introVariants,
+    };
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    return (
+        <Grid>
+            <Header headTitle="Nikolaj Jepsen - webudvikler" />
+            <PageContent justifyCenter={true} className="background--skies">
+                <motion.div {...introMotionProps}>
+                    <div className={styles.introContainer}>
+                        <div className={styles.introImage}>
+                            <img
+                                src="/images/profile-image.jpg"
+                                alt="Nikolaj Jepsen"
+                            />
+                        </div>
+                        <h1 className="display-1">Hi, I'm Nikolaj.</h1>
+                        <div className={styles.icons}>
+                            <a
+                                href="https://github.com/nikolajjepsen/"
+                                target="_blank"
+                            >
+                                <FaGithub />
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/nikolajsjepsen/"
+                                target="_blank"
+                            >
+                                <FaLinkedin />
+                            </a>
+                        </div>
+                    </div>
+                </motion.div>
+            </PageContent>
+        </Grid>
+    );
 }
