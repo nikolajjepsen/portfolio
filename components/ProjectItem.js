@@ -28,7 +28,7 @@ export default function ExperienceItem({ name, type, image, github }) {
                     {github && (
                         <div className={styles.buttons}>
                             <a href={github} target="_blank">
-                                <FaGithub /> View On Github
+                                <FaGithub /> <span>View On Github</span>
                             </a>
                         </div>
                     )}

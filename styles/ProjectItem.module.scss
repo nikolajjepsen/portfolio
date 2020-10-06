@@ -1,5 +1,13 @@
+@import 'breakpoints.scss';
+
 .meta {
-    width: 24%;
+    width: 50%;
+    @include respond-to('large') {
+        width: 26%;
+    }
+    @include respond-to('small') {
+        width: 22%;
+    }
 }
 
 .buttons {
@@ -19,8 +27,19 @@
             color: #000;
         }
 
+        span {
+            display: none;
+
+            @include respond-to('large') {
+                display: initial;
+            }
+        }
+
         svg {
-            margin-right: 10px;
+            font-size: 20px;
+            @include respond-to('large') {
+                margin-right: 10px;
+            }
         }
     }
 }
