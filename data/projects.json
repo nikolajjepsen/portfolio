@@ -1,34 +1,70 @@
 [
     {
-        "name": "SPA Personal Dashboard",
-        "type": "Project",
+        "name": "Lights, Player, Productivity",
+        "type": "React / Express",
         "description": "Controls music and lights, displays last 10 emails, calendar entries; todos and shopping list",
         "stack": ["React", "Sass", "Node.js", "Express", "MongoDB"],
-        "image": "/images/projects/spa-control/showcase.png",
-        "github": "https://github.com/nikolajjepsen/controlpanel"
+        "images": [
+            "/images/projects/spa-control/showcase.png",
+            "/images/projects/spa-control/1.png",
+            "/images/projects/spa-control/2.png",
+            "/images/projects/spa-control/3.png"
+        ],
+        "github": "https://github.com/nikolajjepsen/controlpanel",
+        "slug": "myday-react-express"
     },
     {
-        "name": "Find Betting Value",
-        "type": "Client",
-        "description": "Using a third-party API, find and display value bets from selected bookmakers.",
-        "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
-        "image": "/images/projects/oddsprofit-valuebets/1.png",
-        "github": "https://github.com/nikolajjepsen/controlpanel"
-    },
-    {
-        "name": "SMS Custom Platform",
-        "type": "Project",
-        "description": "Integrating third-party SMS providers into a fullstack platform ",
-        "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
-        "image": "/images/projects/sms-platform/showcase.png",
-        "github": "https://github.com/nikolajjepsen/controlpanel"
-    },
-    {
-        "name": "SPA E-sports Calendar",
-        "type": "Project",
+        "name": "E-sports, work-in-progress",
+        "type": "React / Laravel",
         "description": "",
         "stack": ["Laravel", "Eloquent", "React", "Sass"],
-        "image": "/images/projects/esports-calendar/showcase.png",
-        "github": "https://github.com/nikolajjepsen/controlpanel"
+        "images": [
+            "/images/projects/esports-calendar/showcase.png",
+            "/images/projects/esports-calendar/1.png",
+            "/images/projects/esports-calendar/2.png"
+        ],
+        "github": "https://github.com/nikolajjepsen/esports-calendar",
+        "slug": "esports-laravel-react"
+    },
+    {
+        "name": "Fullstack, Loans, Comparison",
+        "type": "jQuery / Lumen",
+        "description": "",
+        "stack": ["Laravel", "Eloquent", "React", "Sass"],
+        "images": ["/images/projects/leapkreditt/showcase.png"],
+        "github": "https://github.com/nikolajjepsen/leapkreditt",
+        "slug": "leapkreditt-lumen-jquery"
+    },
+    {
+        "name": "Statistics, Betting, Value",
+        "type": "Blade / Laravel",
+        "description": "Using a third-party API, find and display value bets from selected bookmakers.",
+        "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
+        "images": ["/images/projects/oddsprofit-valuebets/1.png"],
+        "github": "",
+        "slug": "valuebets-laravel-blade"
+    },
+    {
+        "name": "Analytics, Data, Revenue",
+        "type": "jQuery / PHP",
+        "description": "Integrating third-party SMS providers into a fullstack platform ",
+        "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
+        "images": [
+            "/images/projects/sms-platform/showcase.png",
+            "/images/projects/sms-platform/1.png",
+            "/images/projects/sms-platform/2.png",
+            "/images/projects/sms-platform/3.png"
+        ],
+        "github": "",
+        "slug": "sms-platform-php"
+    },
+    {
+        "name": "Storage, Automation, Administration",
+        "type": "jQuery / PHP",
+        "description": "",
+        "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
+        "images": ["/images/projects/pm-control/showcase.png"],
+        "github": "https://github.com/nikolajjepsen/progress-dashboard",
+        "slug": "pm-controlpanel-php"
     }
 ]

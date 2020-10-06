@@ -1,6 +1,23 @@
 import styles from './../styles/ExperienceItem.module.scss';
 import { motion } from 'framer-motion';
 
+const itemMotionProps = {
+    variants: {
+        initial: {
+            opacity: 0,
+            y: -80,
+        },
+        animate: {
+            y: 0,
+            opacity: 1,
+        },
+        transition: {
+            duration: 0.5,
+            ease: [0.22, 0.22, 0.5, 1],
+        },
+    },
+};
+
 export default function ExperienceItem({
     company,
     position,
@@ -11,7 +28,7 @@ export default function ExperienceItem({
     projects,
 }) {
     return (
-        <li>
+        <motion.li {...itemMotionProps}>
             <h4 className={styles.company}>
                 {position} at {company}, {location}
             </h4>
@@ -28,6 +45,6 @@ export default function ExperienceItem({
                         </p>
                     ))}
             </div>
-        </li>
+        </motion.li>
     );
 }

@@ -1,43 +1,41 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import Aside from './Aside';
 
-export default function PageContent({
-    justifyCenter,
-    hasAside,
-    className,
-    children,
-}) {
-    const pageVariants = {
+const pageMotionProps = {
+    initial: 'pageInitial',
+    animate: 'pageAnimate',
+    variants: {
         pageInitial: {
             opacity: 0,
         },
         pageAnimate: {
             opacity: 1,
         },
-    };
-    const pageMotionProps = {
-        initial: 'pageInitial',
-        animate: 'pageAnimate',
-        variants: pageVariants,
-        duration: 0.25,
-    };
+    },
+};
 
-    const asideVariants = {
+const asideMotionProps = {
+    initial: 'asideInitial',
+    animate: 'asideAnimate',
+    variants: {
         asideInitial: {
-            x: '-100%',
+            scale: 0.9,
         },
         asideAnimate: {
-            x: 0,
+            scale: 1,
         },
-    };
-    const asideMotionProps = {
-        initial: 'asideInitial',
-        animate: 'asideAnimate',
-        variants: asideVariants,
-        delay: 0.25,
-        duration: 0.5,
-    };
+    },
+    transition: {
+        duration: 0.6,
+    },
+};
 
+export default function PageContent({
+    justifyCenter,
+    hasAside,
+    className,
+    children,
+}) {
     return (
         <AnimatePresence exitBeforeEnter>
             <motion.div {...pageMotionProps}>

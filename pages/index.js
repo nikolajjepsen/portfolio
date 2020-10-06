@@ -7,37 +7,23 @@ import PageContent from './../components/Layout/PageContent';
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-export default function Home() {
-    const imageVariants = {
-        imageInitial: {
-            y: '-80px',
-        },
-        imageAnimate: {
-            y: 0,
-        },
-    };
-
-    const imageMotionProps = {
-        initial: 'imageInitial',
-        animate: 'imageAnimate',
-        variants: imageVariants,
-    };
-
-    const introVariants = {
+const introMotionProps = {
+    initial: 'introInitial',
+    animate: 'introAnimate',
+    variants: {
         introInitial: {
             scale: 0.9,
         },
         introAnimate: {
             scale: 1,
         },
-    };
+    },
+    transition: {
+        duration: 0.7,
+    },
+};
 
-    const introMotionProps = {
-        initial: 'introInitial',
-        animate: 'introAnimate',
-        variants: introVariants,
-    };
-
+export default function Home() {
     return (
         <Grid>
             <Header headTitle="Nikolaj Jepsen - webudvikler" />

@@ -112,6 +112,7 @@ header {
     flex-direction: column;
     justify-content: center;
     background-color: $gunmetal;
+    z-index: 2;
 
     @include respond-to('large') {
         display: grid;
@@ -209,7 +210,10 @@ footer {
     flex-wrap: wrap;
 
     .col {
-        width: 48%;
+        width: 100%;
+        @include respond-to('large') {
+            width: 48%;
+        }
     }
 }
 

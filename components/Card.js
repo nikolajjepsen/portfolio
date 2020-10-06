@@ -1,13 +1,13 @@
 import styles from './../styles/Card.module.scss';
 
-export const Card = ({ variant, children }) => {
-    console.log(styles);
+export const Card = ({ variant, children, onClick }) => {
     return (
         <div
             className={`
                 ${styles.card} 
                 ${[variant ? `${styles[`variant-${variant}`]}` : '']}
             `}
+            onClick={onClick}
         >
             {children}
         </div>

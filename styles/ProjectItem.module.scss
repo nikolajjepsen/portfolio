@@ -1,0 +1,26 @@
+.meta {
+    width: 24%;
+}
+
+.buttons {
+    a {
+        display: flex;
+        align-items: center;
+        padding: 8px 20px;
+        background-color: transparent;
+        border: 2px #fff solid;
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+        transition: all ease-in-out 400ms;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        svg {
+            margin-right: 10px;
+        }
+    }
+}

@@ -16,8 +16,9 @@ export default function Aside() {
                     respective fields.
                 </p>
                 <p>
-                    I've gained experience with small as well as large platforms
-                    utilising all the tools in my constantly increase tool belt.
+                    I've gained experience building small as well as large
+                    platforms utilising all the tools in my constantly
+                    increasing tool belt.
                 </p>
                 <div className={styles.icons}>
                     <a href="https://github.com/nikolajjepsen/" target="_blank">

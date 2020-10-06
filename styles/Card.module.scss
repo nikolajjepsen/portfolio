@@ -15,9 +15,11 @@
     }
 
     .header {
-        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         @include respond-to('large') {
-            min-height: 15vh;
+            min-height: 16vh;
         }
 
         p {
@@ -49,7 +51,7 @@
 
         &:hover {
             background-color: $color-accent;
-            transform: scale(98%);
+            transform: scale(0.98);
         }
         .header {
             color: #ccc;
