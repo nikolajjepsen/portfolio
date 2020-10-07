@@ -29,9 +29,9 @@ export default function ExperienceItem({
 }) {
     return (
         <motion.li {...itemMotionProps}>
-            <h4 className={styles.company}>
+            <h3 className={styles.company}>
                 {position} at {company}, {location}
-            </h4>
+            </h3>
             <p className={styles.brief}>{brief}</p>
             <span className={styles.period}>
                 {start} - {end}

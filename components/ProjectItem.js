@@ -27,14 +27,19 @@ export default function ExperienceItem({ name, type, image, github }) {
                     </div>
                     {github && (
                         <div className={styles.buttons}>
-                            <a href={github} target="_blank">
+                            <a
+                                href={github}
+                                aria-label="View project on Github"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
                                 <FaGithub /> <span>View On Github</span>
                             </a>
                         </div>
                     )}
                 </CardHeader>
                 <CardBody>
-                    <img src={image} />
+                    <img src={image} alt={`${type}: ${name}`} />
                 </CardBody>
             </Card>
         </motion.div>

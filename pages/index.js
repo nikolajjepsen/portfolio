@@ -40,12 +40,16 @@ export default function Home() {
                         <div className={styles.icons}>
                             <a
                                 href="https://github.com/nikolajjepsen/"
+                                aria-label="View my Github"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 <FaGithub />
                             </a>
                             <a
                                 href="https://www.linkedin.com/in/nikolajsjepsen/"
+                                aria-label="Find me on LinkedIn"
+                                rel="noreferrer"
                                 target="_blank"
                             >
                                 <FaLinkedin />

@@ -31,7 +31,11 @@ const projectsMotionProps = {
 export default function Projects() {
     return (
         <Grid>
-            <Header headTitle="Nikolaj Jepsen - Projects" />
+            <Header
+                headTitle="Nikolaj Jepsen - Projects"
+                metaDescription={`My name is Nikolaj, and I'm a web developer using primarily PHP, MySQL, React & jQuery. 
+                    These are some of the projects I've been working on.`}
+            />
             <PageContent hasAside>
                 <motion.div {...projectsMotionProps}>
                     <FlexGrid size="half">

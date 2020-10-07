@@ -5,7 +5,10 @@ export default function Aside() {
     return (
         <aside className={styles.aside}>
             <div className={styles.profileImage}>
-                <img src="/images/profile-image.jpg" />
+                <img
+                    src="/images/profile-image.jpg"
+                    alt="Profile image of me."
+                />
             </div>
             <div className={styles.about}>
                 <h2>Hi, I'm Nikolaj</h2>
@@ -21,11 +24,18 @@ export default function Aside() {
                     increasing tool belt.
                 </p>
                 <div className={styles.icons}>
-                    <a href="https://github.com/nikolajjepsen/" target="_blank">
+                    <a
+                        href="https://github.com/nikolajjepsen/"
+                        aria-label="View my Github"
+                        rel="noreferrer"
+                        target="_blank"
+                    >
                         <FaGithub />
                     </a>
                     <a
                         href="https://www.linkedin.com/in/nikolajsjepsen/"
+                        aria-label="Find me on LinkedIn"
+                        rel="noreferrer"
                         target="_blank"
                     >
                         <FaLinkedin />

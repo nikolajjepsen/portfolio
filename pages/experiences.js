@@ -29,7 +29,11 @@ const experiencesMotionProps = {
 export default function Experiences() {
     return (
         <Grid>
-            <Header headTitle="Nikolaj Jepsen - Experiences" />
+            <Header
+                headTitle="Nikolaj Jepsen - Experiences"
+                metaDescription={`My name is Nikolaj, and I'm a web developer. 
+                    These are some of the work experiences I've had within the field of web development and digital marketing.`}
+            />
             <PageContent sectionTitle="Experiences" hasAside>
                 <motion.ul
                     {...experiencesMotionProps}
