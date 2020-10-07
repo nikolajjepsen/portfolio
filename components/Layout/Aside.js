@@ -6,7 +6,7 @@ export default function Aside() {
         <aside className={styles.aside}>
             <div className={styles.profileImage}>
                 <img
-                    src="/images/profile-image.jpg"
+                    src="/images/profile-image.webp"
                     alt="Profile image of me."
                 />
             </div>

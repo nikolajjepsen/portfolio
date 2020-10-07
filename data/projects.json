@@ -5,7 +5,7 @@
         "description": "Controls music and lights, displays last 10 emails, calendar entries; todos and shopping list",
         "stack": ["React", "Sass", "Node.js", "Express", "MongoDB"],
         "images": [
-            "/images/projects/spa-control/showcase.png",
+            "/images/projects/spa-control/showcase.webp",
             "/images/projects/spa-control/1.png",
             "/images/projects/spa-control/2.png",
             "/images/projects/spa-control/3.png"
@@ -19,7 +19,7 @@
         "description": "",
         "stack": ["Laravel", "Eloquent", "React", "Sass"],
         "images": [
-            "/images/projects/esports-calendar/showcase.png",
+            "/images/projects/esports-calendar/showcase.webp",
             "/images/projects/esports-calendar/1.png",
             "/images/projects/esports-calendar/2.png"
         ],
@@ -31,7 +31,7 @@
         "type": "jQuery / Lumen",
         "description": "",
         "stack": ["Laravel", "Eloquent", "React", "Sass"],
-        "images": ["/images/projects/leapkreditt/showcase.png"],
+        "images": ["/images/projects/leapkreditt/showcase.webp"],
         "github": "https://github.com/nikolajjepsen/leapkreditt",
         "slug": "leapkreditt-lumen-jquery"
     },
@@ -40,7 +40,7 @@
         "type": "Blade / Laravel",
         "description": "Using a third-party API, find and display value bets from selected bookmakers.",
         "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
-        "images": ["/images/projects/oddsprofit-valuebets/1.png"],
+        "images": ["/images/projects/oddsprofit-valuebets/1.webp"],
         "github": "",
         "slug": "valuebets-laravel-blade"
     },
@@ -50,7 +50,7 @@
         "description": "Integrating third-party SMS providers into a fullstack platform ",
         "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
         "images": [
-            "/images/projects/sms-platform/showcase.png",
+            "/images/projects/sms-platform/showcase.webp",
             "/images/projects/sms-platform/1.png",
             "/images/projects/sms-platform/2.png",
             "/images/projects/sms-platform/3.png"
@@ -63,7 +63,7 @@
         "type": "jQuery / PHP",
         "description": "",
         "stack": ["PHP", "MySQL", "Bootstrap", "jQuery"],
-        "images": ["/images/projects/pm-control/showcase.png"],
+        "images": ["/images/projects/pm-control/showcase.webp"],
         "github": "https://github.com/nikolajjepsen/progress-dashboard",
         "slug": "pm-controlpanel-php"
     }

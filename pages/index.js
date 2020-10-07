@@ -32,7 +32,7 @@ export default function Home() {
                     <div className={styles.introContainer}>
                         <div className={styles.introImage}>
                             <img
-                                src="/images/profile-image.jpg"
+                                src="/images/profile-image.webp"
                                 alt="Nikolaj Jepsen"
                             />
                         </div>
