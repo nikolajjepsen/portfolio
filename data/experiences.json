@@ -1,11 +1,22 @@
 [
     {
+        "company": "Temponizer A/S",
+        "position": "Software Developer",
+        "location": "Copenhagen",
+        "brief": "Fullstack software developer working on a legacy SaaS solution for temp agencies",
+        "start": "October 2021",
+        "end": "Current",
+        "projects": [
+            "Implementation of a host of features, including, among others additions to payroll, invoicing, and planning"
+        ]
+    },
+    {
         "company": "Progress Media ApS",
         "position": "Owner",
         "location": "Køge",
         "brief": "Digital marketing using channels such as e-mail, SMS, and social media.",
         "start": "January 2015",
-        "end": "current",
+        "end": "November 2021",
         "projects": [
             "A number of different landingpages, primarily frontend work.",
             "Automating e-mail and SMS flows and analytical optimisation of sent campaigns based on KPI.",
