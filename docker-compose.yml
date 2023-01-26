@@ -1,4 +1,4 @@
-version: '3'
+version: '3.5'
 networks:
   traefik:
     external: true
@@ -10,7 +10,6 @@ services:
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.portfolio.service=portfolio"
       - "traefik.http.routers.portfolio.rule=Host(`nikolaj-jepsen.dk`)"
       - "traefik.docker.network=traefik"
       - "traefik.http.routers.portfolio.entrypoints=websecure"
