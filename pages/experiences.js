@@ -1,5 +1,5 @@
-import experiences from '../data/experiences.json';
 import styles from '../styles/Experiences.module.scss';
+import experiences from '../data/experiences.json';
 
 import { motion } from 'framer-motion';
 import Grid from './../components/Layout/Grid';
