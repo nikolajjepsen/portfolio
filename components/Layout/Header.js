@@ -12,7 +12,7 @@ export default function Header({ headTitle, metaDescription }) {
                     content={
                         metaDescription
                             ? metaDescription
-                            : "Hi, I'm Nikolaj. I've spent the last 10 years working with web development and digital marketing."
+                            : "Hi, I'm Nikolaj. I've spent the last 13 years working with web development and digital marketing."
                     }
                 />
             </Head>

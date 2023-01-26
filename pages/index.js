@@ -26,7 +26,7 @@ const introMotionProps = {
 export default function Home() {
     return (
         <Grid>
-            <Header headTitle="Nikolaj Jepsen - webudvikler" />
+            <Header headTitle="Nikolaj Jepsen - software developer" />
             <PageContent justifyCenter={true} className="background--skies">
                 <motion.div {...introMotionProps}>
                     <div className={styles.introContainer}>
