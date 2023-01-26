@@ -36,24 +36,26 @@ export default function Home() {
                                 alt="Nikolaj Jepsen"
                             />
                         </div>
-                        <h1 className="display-1">Hi, I'm Nikolaj.</h1>
-                        <div className={styles.icons}>
-                            <a
-                                href="https://github.com/nikolajjepsen/"
-                                aria-label="View my Github"
-                                rel="noreferrer"
-                                target="_blank"
-                            >
-                                <FaGithub />
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/nikolajsjepsen/"
-                                aria-label="Find me on LinkedIn"
-                                rel="noreferrer"
-                                target="_blank"
-                            >
-                                <FaLinkedin />
-                            </a>
+                        <div className={styles.introName}>
+                            <h1 className="display-1">Hi, I'm Nikolaj.</h1>
+                            <div className={styles.icons}>
+                                <a
+                                    href="https://github.com/nikolajjepsen/"
+                                    aria-label="View my Github"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                >
+                                    <FaGithub />
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/in/nikolajsjepsen/"
+                                    aria-label="Find me on LinkedIn"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                >
+                                    <FaLinkedin />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </motion.div>

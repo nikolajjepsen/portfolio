@@ -8,15 +8,20 @@
     text-align: center;
 
     @include respond-to('large') {
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
         text-align: left;
     }
     .introImage {
-        width: 190px;
         margin-bottom: 30px;
+        @include respond-to('large') {
+            margin-right: 50px;
+        }
 
         img {
             border-radius: 50%;
+            width: 265px;
+            height: 255px;
             border: 4px $color-accent solid;
         }
     }
@@ -27,6 +32,11 @@
             color: #193038;
             font-weight: 600;
         }
+    }
+
+    .introName {
+        display: flex;
+        flex-direction: column;
     }
 }
 
