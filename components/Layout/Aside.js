@@ -13,7 +13,7 @@ export default function Aside() {
             <div className={styles.about}>
                 <h2>Hi, I'm Nikolaj</h2>
                 <p>
-                    I've spent the last 10 years working with web development
+                    I've spent the last 13 years working with web development
                     and digital marketing. Through many adventures, I've had the
                     pleasure of working with smart people within their
                     respective fields.
